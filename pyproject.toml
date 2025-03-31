@@ -1,0 +1,39 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "pathtools"
+version = "0.1.0"
+description = "File system general utilities"
+readme = "README"  # Adjust to 'README.md' or your actual README filename
+authors = ["Yesudeep Mangalapilly <yesudeep@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/gorakhargosh/pathtools"
+keywords = ["filesystem", "utilities"]
+
+# Although Poetry doesn't officially document "classifiers" as top-level metadata,
+# PyPI will pick them up if you list them here:
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 2",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: System :: Filesystems",
+    "Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+# Adjust the Python version range as needed:
+python = "^3.10"
+
+# Add any other library dependencies here:
+# my-dependency = "^1.2.3"
+
+[tool.poetry.dev-dependencies]
+# Add any development/test dependencies here:
+# pytest = "^7.0"
